@@ -10,5 +10,27 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: blueviolet;
+}
+
+.btnNav{
+    background-color: blueviolet;
+    color: white;
+    padding: 15px 15px;
     text-decoration: none;
+}
+
+.contenido{
+    display: flex;
+}
+
+main{
+    background-color: chartreuse;
+    width: 70%;
+}
+
+
+aside{
+    background-color:#1abc9c;
+    width: 30%;
 }
