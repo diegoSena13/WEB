@@ -1,7 +1,11 @@
+body{
+    font-family: 'Sunflower', sans-serif;
+}
+
 header {
     padding: 60px;
     text-align: center;
-    background: #1abc9c;
+    background-color: #C2DEDC;
     color: white;
     font-size: 30px;
     }
@@ -10,11 +14,12 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: blueviolet;
+    background-color: #CDC2AE;
+    width: 100%;
 }
 
 .btnNav{
-    background-color: blueviolet;
+    background-color: #CDC2AE;
     color: white;
     padding: 15px 15px;
     text-decoration: none;
@@ -25,22 +30,35 @@ nav{
 }
 
 main{
-    background-color: chartreuse;
+    background-color: #ECE5C7;
+    width: 100%;
+}
+
+section{
+    width: 100%S;
+}
+
+.contenido2{
+    display: flex;
+}
+
+article{
     width: 70%;
 }
 
-
 aside{
-    background-color:#1abc9c;
     width: 30%;
 }
+
 
 footer {
     display: flex;
     width: 100%;
-    background-color:black;
-    color: white;
-    text-align: left;
+    background: #C2DEDC;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 5px;
     }
 
 .derechos{
@@ -53,4 +71,16 @@ footer {
     align-items: center;
     color: white;
     width: 30%;
+}
+
+.redes{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.linkFooter{
+    text-decoration: none;
+    color: black;
 }
