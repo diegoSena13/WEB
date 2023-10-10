@@ -2,44 +2,35 @@ body{
     font-family: 'Sunflower', sans-serif;
 }
 
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #CDC2AE;
-    width: 100%;
-}
-
-.btnNav{
-    background-color: #CDC2AE;
-    color: white;
-    padding: 15px 15px;
-    text-decoration: none;
-}
 
 .contenido{
     display: flex;
 }
 
 main{
-    background-color: #ECE5C7;
+    display: flex;
     width: 100%;
 }
 
+.espacio2{
+    width: 15%;
+}
+
+.espacio1{
+    width: 15%;
+}
+
 section{
-    width: 100%S;
-}
-
-.contenido2{
-    display: flex;
-}
-
-article{
     width: 70%;
 }
 
-aside{
-    width: 30%;
+.bienvenidad{
+    text-align: center;
+}
+
+.trabajos{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
